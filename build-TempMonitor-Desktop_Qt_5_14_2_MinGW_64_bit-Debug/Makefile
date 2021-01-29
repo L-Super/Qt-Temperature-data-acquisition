@@ -116,6 +116,8 @@ Makefile: ../TempMonitor/TempMonitor.pro ../../../Qt/Qt5.14.2/5.14.2/mingw73_64/
 		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_bluetooth.pri \
 		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_bluetooth_private.pri \
 		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_bootstrap_private.pri \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_charts.pri \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_charts_private.pri \
 		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_concurrent.pri \
 		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_concurrent_private.pri \
 		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_core.pri \
@@ -248,6 +250,7 @@ Makefile: ../TempMonitor/TempMonitor.pro ../../../Qt/Qt5.14.2/5.14.2/mingw73_64/
 		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/features/yacc.prf \
 		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/features/lex.prf \
 		../TempMonitor/TempMonitor.pro \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/lib/Qt5Charts.prl \
 		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/lib/Qt5Widgets.prl \
 		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/lib/Qt5Gui.prl \
 		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/lib/Qt5Network.prl \
@@ -301,6 +304,8 @@ Makefile: ../TempMonitor/TempMonitor.pro ../../../Qt/Qt5.14.2/5.14.2/mingw73_64/
 ../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_bluetooth.pri:
 ../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_bluetooth_private.pri:
 ../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_bootstrap_private.pri:
+../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_charts.pri:
+../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_charts_private.pri:
 ../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_concurrent.pri:
 ../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_concurrent_private.pri:
 ../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_core.pri:
@@ -433,6 +438,7 @@ Makefile: ../TempMonitor/TempMonitor.pro ../../../Qt/Qt5.14.2/5.14.2/mingw73_64/
 ../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/features/yacc.prf:
 ../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/features/lex.prf:
 ../TempMonitor/TempMonitor.pro:
+../../../Qt/Qt5.14.2/5.14.2/mingw73_64/lib/Qt5Charts.prl:
 ../../../Qt/Qt5.14.2/5.14.2/mingw73_64/lib/Qt5Widgets.prl:
 ../../../Qt/Qt5.14.2/5.14.2/mingw73_64/lib/Qt5Gui.prl:
 ../../../Qt/Qt5.14.2/5.14.2/mingw73_64/lib/Qt5Network.prl:

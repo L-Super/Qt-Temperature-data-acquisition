@@ -1,9 +1,24 @@
 #include "mainwidget.h"
 #include<QDebug>
-MainWidget::MainWidget(QWidget *parent)
-    : QWidget(parent)
+#include<QtCharts/QXYSeries>
+void MainWidget::createChart()
 {
-    chartView=new QChartView
+    //配置基础图表数据
+    mainChart=new QChart();
+    dotSeries=new QScatterSeries;
+}
+MainWidget::MainWidget(QWidget *parent)
+    : QWidget(parent),chartview(new QChartView(this))
+{
+    this->setGeometry(200,200,800,600);
+    this->setMinimumSize(400,300);
+    createChart();
+
+    //对于绝大部分界面元素，创建对象时，可以添加父元素的指针，代表加到父界面
+    //chartview=new QChartView(this);
+    chartview->setGeometry(250,0,300,200);
+    chartview->setChart(mainChart);
+
     if(startServer())
     {
         qDebug()<<"等待连接";
