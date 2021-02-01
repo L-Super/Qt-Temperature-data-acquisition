@@ -6,6 +6,9 @@
 #include <QChartView>
 #include<QChart>
 #include<QtCharts/QScatterSeries>
+#include<QLabel>
+//数字显示器
+#include<QLCDNumber>
 
 
 QT_CHARTS_USE_NAMESPACE
@@ -28,6 +31,8 @@ public:
     QChart *mainChart;
     //图类型 点状图
     QScatterSeries *dotSeries;
+    QLabel *currentTempLabel;
+    QLCDNumber *currentLcdNumber;
     //定义槽函数
 private slots:
     void newConnectionAccept();

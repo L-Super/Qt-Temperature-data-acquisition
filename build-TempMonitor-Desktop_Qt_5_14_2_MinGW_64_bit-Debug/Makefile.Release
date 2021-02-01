@@ -400,6 +400,41 @@ release/moc_mainwidget.cpp: ../TempMonitor/mainwidget.h \
 		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtNetwork/qsslkey.h \
 		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtNetwork/qudpsocket.h \
 		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtNetwork/qtnetworkversion.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCharts/QChartView \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCharts/qchartview.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCharts/QAbstractAxis \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCharts/qabstractaxis.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCharts/QChartGlobal \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCharts/qchartglobal.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QtGlobal \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/QPen \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qpen.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/QFont \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCharts/QAbstractSeries \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCharts/qabstractseries.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCharts/QChart \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCharts/qchart.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCharts/QLegend \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCharts/qlegend.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QGraphicsWidget \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qgraphicswidget.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qgraphicslayoutitem.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qgraphicsitem.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/QBrush \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QMargins \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QGraphicsView \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qgraphicsview.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qpainter.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qtextoption.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qscrollarea.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qabstractscrollarea.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qframe.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qgraphicsscene.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCharts/QScatterSeries \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCharts/qscatterseries.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCharts/qxyseries.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QLabel \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qlabel.h \
 		release/moc_predefs.h \
 		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/bin/moc.exe
 	D:\Qt\Qt5.14.2\5.14.2\mingw73_64\bin\moc.exe $(DEFINES) --include D:/C++/Qt-Temperature-data-acquisition/build-TempMonitor-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/release/moc_predefs.h -ID:/Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/win32-g++ -ID:/C++/Qt-Temperature-data-acquisition/TempMonitor -ID:/Qt/Qt5.14.2/5.14.2/mingw73_64/include -ID:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCharts -ID:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets -ID:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui -ID:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtANGLE -ID:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtNetwork -ID:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore -I. -ID:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++ -ID:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32 -ID:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward -ID:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include -ID:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed -ID:/Qt/Qt5.14.2/Tools/mingw730_64/x86_64-w64-mingw32/include ..\TempMonitor\mainwidget.h -o release\moc_mainwidget.cpp
@@ -714,6 +749,41 @@ release/main.o: ../TempMonitor/main.cpp ../TempMonitor/mainwidget.h \
 		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtNetwork/qsslkey.h \
 		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtNetwork/qudpsocket.h \
 		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtNetwork/qtnetworkversion.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCharts/QChartView \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCharts/qchartview.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCharts/QAbstractAxis \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCharts/qabstractaxis.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCharts/QChartGlobal \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCharts/qchartglobal.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QtGlobal \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/QPen \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qpen.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/QFont \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCharts/QAbstractSeries \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCharts/qabstractseries.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCharts/QChart \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCharts/qchart.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCharts/QLegend \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCharts/qlegend.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QGraphicsWidget \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qgraphicswidget.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qgraphicslayoutitem.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qgraphicsitem.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/QBrush \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QMargins \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QGraphicsView \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qgraphicsview.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qpainter.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qtextoption.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qscrollarea.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qabstractscrollarea.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qframe.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qgraphicsscene.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCharts/QScatterSeries \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCharts/qscatterseries.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCharts/qxyseries.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QLabel \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qlabel.h \
 		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QApplication \
 		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qapplication.h \
 		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qdesktopwidget.h \
@@ -1013,7 +1083,44 @@ release/mainwidget.o: ../TempMonitor/mainwidget.cpp ../TempMonitor/mainwidget.h 
 		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtNetwork/qsslkey.h \
 		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtNetwork/qudpsocket.h \
 		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtNetwork/qtnetworkversion.h \
-		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QDebug
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCharts/QChartView \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCharts/qchartview.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCharts/QAbstractAxis \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCharts/qabstractaxis.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCharts/QChartGlobal \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCharts/qchartglobal.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QtGlobal \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/QPen \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qpen.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/QFont \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCharts/QAbstractSeries \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCharts/qabstractseries.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCharts/QChart \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCharts/qchart.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCharts/QLegend \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCharts/qlegend.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QGraphicsWidget \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qgraphicswidget.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qgraphicslayoutitem.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qgraphicsitem.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/QBrush \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QMargins \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QGraphicsView \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qgraphicsview.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qpainter.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qtextoption.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qscrollarea.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qabstractscrollarea.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qframe.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qgraphicsscene.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCharts/QScatterSeries \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCharts/qscatterseries.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCharts/qxyseries.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QLabel \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qlabel.h \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QDebug \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCharts/QValueAxis \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCharts/qvalueaxis.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\mainwidget.o ..\TempMonitor\mainwidget.cpp
 
 release/moc_mainwidget.o: release/moc_mainwidget.cpp 

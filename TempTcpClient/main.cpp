@@ -1,4 +1,8 @@
-/*TCP客户端*/
+/*
+ *TCP客户端
+ *发送数据
+
+*/
 #include<iostream>
 #include<time.h>
 #include<unistd.h>

@@ -1,3 +1,7 @@
+/*
+用户端
+接收数据
+*/
 #include "mainwidget.h"
 
 #include <QApplication>
