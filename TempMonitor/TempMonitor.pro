@@ -1,6 +1,6 @@
 QT       += core gui
 QT       += network
-QT       += charts
+QT       += charts multimedia
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 

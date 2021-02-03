@@ -79,6 +79,15 @@ MainWidget::MainWidget(QWidget *parent)
     //currentLcdNumber->display(12);
 
     //qDebug()<<QTime::currentTime().minute();
+    /*
+     * 设置播放器
+     * 配置多媒体资源
+     * 播放等处理
+
+*/
+    alterplayer=new QMediaPlayer;
+    //
+
 
     if(startServer())
     {

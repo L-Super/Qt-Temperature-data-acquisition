@@ -9,7 +9,8 @@
 #include<QLabel>
 //数字显示器
 #include<QLCDNumber>
-
+//多媒体播放器
+#include<QMediaPlayer>
 
 QT_CHARTS_USE_NAMESPACE
 
@@ -33,6 +34,8 @@ public:
     QScatterSeries *dotSeries;
     QLabel *currentTempLabel;
     QLCDNumber *currentLcdNumber;
+    //报警音
+    QMediaPlayer *alterplayer;
     //定义槽函数
 private slots:
     void newConnectionAccept();
