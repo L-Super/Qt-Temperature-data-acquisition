@@ -1,1 +1,3 @@
-# Qt-Temperature-data-acquisition
+# 使用Qt模拟体温数据采集与展示
+
+注：需要安装QChart
