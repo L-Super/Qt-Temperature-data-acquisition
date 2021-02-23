@@ -252,11 +252,13 @@ Makefile: ../TempMonitor/TempMonitor.pro ../../../Qt/Qt5.14.2/5.14.2/mingw73_64/
 		../TempMonitor/TempMonitor.pro \
 		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/lib/Qt5Charts.prl \
 		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/lib/Qt5Widgets.prl \
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/lib/Qt5Multimedia.prl \
 		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/lib/Qt5Gui.prl \
 		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/lib/Qt5Network.prl \
 		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/lib/Qt5Core.prl \
 		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/lib/qtmain.prl \
-		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/features/build_pass.prf
+		../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/features/build_pass.prf \
+		../TempMonitor/music.qrc
 	$(QMAKE) -o Makefile ..\TempMonitor\TempMonitor.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
 ../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/features/spec_pre.prf:
 ../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/qdevice.pri:
@@ -440,11 +442,13 @@ Makefile: ../TempMonitor/TempMonitor.pro ../../../Qt/Qt5.14.2/5.14.2/mingw73_64/
 ../TempMonitor/TempMonitor.pro:
 ../../../Qt/Qt5.14.2/5.14.2/mingw73_64/lib/Qt5Charts.prl:
 ../../../Qt/Qt5.14.2/5.14.2/mingw73_64/lib/Qt5Widgets.prl:
+../../../Qt/Qt5.14.2/5.14.2/mingw73_64/lib/Qt5Multimedia.prl:
 ../../../Qt/Qt5.14.2/5.14.2/mingw73_64/lib/Qt5Gui.prl:
 ../../../Qt/Qt5.14.2/5.14.2/mingw73_64/lib/Qt5Network.prl:
 ../../../Qt/Qt5.14.2/5.14.2/mingw73_64/lib/Qt5Core.prl:
 ../../../Qt/Qt5.14.2/5.14.2/mingw73_64/lib/qtmain.prl:
 ../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/features/build_pass.prf:
+../TempMonitor/music.qrc:
 qmake: FORCE
 	@$(QMAKE) -o Makefile ..\TempMonitor\TempMonitor.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
 

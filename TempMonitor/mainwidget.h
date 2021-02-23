@@ -5,7 +5,10 @@
 #include <QtNetwork>
 #include <QChartView>
 #include<QChart>
+//点状图
 #include<QtCharts/QScatterSeries>
+//折线图
+#include<QtCharts/QLineSeries>
 #include<QLabel>
 //数字显示器
 #include<QLCDNumber>
@@ -32,10 +35,14 @@ public:
     QChart *mainChart;
     //图类型 点状图
     QScatterSeries *dotSeries;
+    //警戒线
+    QLineSeries *alertLineSeries;
+    //连接线
+    QLineSeries *connectLineSeries;
     QLabel *currentTempLabel;
     QLCDNumber *currentLcdNumber;
     //报警音
-    QMediaPlayer *alterplayer;
+    QMediaPlayer *alertplayer;
     //定义槽函数
 private slots:
     void newConnectionAccept();

@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>mp3/alert.mp3</file>
+    </qresource>
+</RCC>

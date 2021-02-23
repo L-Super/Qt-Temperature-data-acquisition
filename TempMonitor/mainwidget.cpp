@@ -7,6 +7,8 @@ void MainWidget::createChart()
     //配置基础图表数据
     mainChart=new QChart();
     dotSeries=new QScatterSeries;
+    alertLineSeries=new QLineSeries;
+    connectLineSeries=new QLineSeries;
     //XY坐标系
     QValueAxis *axisX=new QValueAxis;
     QValueAxis *axisY=new QValueAxis;
@@ -40,12 +42,29 @@ void MainWidget::createChart()
 
     mainChart->addAxis(axisX,Qt::AlignBottom);
     mainChart->addAxis(axisY,Qt::AlignLeft);
+//顺序存在图层关系
+    mainChart->addSeries(alertLineSeries);
+    mainChart->addSeries(connectLineSeries);
     mainChart->addSeries(dotSeries);
+
+
     //隐藏图例
     mainChart->legend()->hide();
 //需要将坐标系和数值范围绑定在一起，否则显示数据不正确
     dotSeries->attachAxis(axisX);
     dotSeries->attachAxis(axisY);
+
+    //alertLineSeries->setColor(Qt::red);
+    //颜色，粗细，线形状
+    alertLineSeries->setPen(QPen(Qt::red,5,Qt::DashLine));
+    alertLineSeries->attachAxis(axisX);
+    alertLineSeries->attachAxis(axisY);
+
+    connectLineSeries->attachAxis(axisX);
+    connectLineSeries->attachAxis(axisY);
+
+    alertLineSeries->append(0,37.3);
+    alertLineSeries->append(60,37.3);
     /*
     for (int i=0;i<43;i++) {
         dotSeries->append(i,i);
@@ -79,14 +98,22 @@ MainWidget::MainWidget(QWidget *parent)
     //currentLcdNumber->display(12);
 
     //qDebug()<<QTime::currentTime().minute();
+
     /*
      * 设置播放器
      * 配置多媒体资源
+        1.是否能作为一个内部资源
+            不建议放太大资源，易导致编译时间过长
+        2.是否能随安装包发送
      * 播放等处理
-
 */
-    alterplayer=new QMediaPlayer;
-    //
+    alertplayer=new QMediaPlayer;
+    //alertplayer->setMedia(QUrl::fromLocalFile("D:/C++/Qt-Temperature-data-acquisition/Resources/mp3/alert.mp3"));
+    alertplayer->setMedia(QUrl("qrc:/mp3/alert.mp3"));
+    alertplayer->setVolume(50);
+    //测试无法播放，需要下载解码器\Qt-Temperature-data-acquisition\Resources\LAVFilters-0.65
+    //alertplayer->play();
+
 
 
     if(startServer())
@@ -134,9 +161,12 @@ void MainWidget::newConnectionAccept()
         if(passMinute!=QTime::currentTime().minute())
         {
             dotSeries->clear();
+            connectLineSeries->clear();
             passMinute=QTime::currentTime().minute();
         }
         dotSeries->append(QTime::currentTime().second(),realTemp);
+        connectLineSeries->append(QTime::currentTime().second(),realTemp);
+
         QString tt("当前温度为：");
         tt += QString("%1").arg(realTemp);
         QString tt1("");
@@ -144,6 +174,17 @@ void MainWidget::newConnectionAccept()
         currentTempLabel->setText(tt1);
         //dotSeries->clear();
         currentLcdNumber->display(tt);
+
+        //
+        if(realTemp>37.3)
+        {
+            if(alertplayer->state()==QMediaPlayer::PlayingState)
+            {
+                alertplayer->stop();
+            }
+            alertplayer->play();
+
+        }
 
     });
 }

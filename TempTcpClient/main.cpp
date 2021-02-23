@@ -1,7 +1,6 @@
 /*
  *TCP客户端
  *发送数据
-
 */
 #include<iostream>
 #include<time.h>
@@ -79,9 +78,7 @@ int main(int argc, char *argv[])
     }
 
 
-
     //makeTemp();
-
 
 
     return 0;
